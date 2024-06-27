@@ -1,0 +1,430 @@
+header {
+  background-color:black;
+ 
+ }
+ 
+ body {
+     margin: 0;
+     font-family: 'Quicksand', sans-serif;
+   
+   }
+ 
+ 
+ .logo {
+     width:140px;
+     height: 140px;
+ }
+ 
+   .inactive {
+     display:none;
+   }
+ 
+   nav {
+     display: flex;
+     justify-content: space-between;
+     padding: 0 24px;
+     border-bottom: 1px solid black;
+   }
+ 
+  .fuente {
+  
+   color: #ECC440;
+ 
+  }
+ 
+  .menu {
+    width: 60px;
+    height: 60px;
+ 
+  }
+ 
+   .navbar-left ul,
+   .navbar-right ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     align-items: center;
+     height: 60px;
+     
+   }
+ 
+   .navbar-left {
+     display: flex;
+   }
+ 
+   .navbar-left ul {
+     margin-left: 12px;
+   }
+   .navbar-left ul li a,
+   .navbar-right ul li a {
+     text-decoration: none;
+ 
+     
+     padding: 10px;
+     border-radius: 8px;
+   }
+ 
+   .navbar-email{
+    color:red; 
+    
+   }
+ 
+   .cart{
+ 
+     width: 40px;
+     height: 40px;
+   }
+ 
+ /*estilos en mobile*/
+ 
+ @media (max-width: 641px) {
+  
+  .titulo {
+    color: #ECC440;
+    text-align: center;
+ 
+       font-size: large;
+       margin-left: 15px;
+       margin-right: 15px;
+       padding: 10px;
+   }
+
+
+   
+       
+   
+ 
+   .navbar-left {
+     display:none;
+   }
+   .breslevlogo{
+    display:block;
+    margin-top: 30px;
+    justify-content: center;
+    
+   
+   }
+
+   .breslevlogo img{
+ 
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 150px;
+      width: 150px; 
+      margin-top: 20px;
+      
+    
+    }
+ 
+    .mobile-menu {
+       background-color: white;
+       position:absolute;
+       top: 60px;
+       padding: 8px;
+     }
+     .mobile-menu a {
+       text-decoration: none;
+       color: black;
+       font-weight: bold;
+       /* margin-bottom: 24px; */
+     }
+     .mobile-menu ul {
+       padding: 0;
+       margin: 12px 0 0;
+       list-style: none;
+     }
+     .mobile-menu ul:nth-child(1) {
+       border-bottom: 1px solid white;
+     }
+     .mobile-menu ul li {
+       margin-bottom: 8px;
+     }
+ 
+    .container {
+       border: 0,3 rem solid black;
+       
+       align-items: center;
+       display: flex;
+       flex-wrap: wrap;
+       position: relative;
+       padding: 50px;
+       }
+   
+   
+   
+   .breslevlogo img{
+    
+      display:block;
+     margin-left: auto;
+     margin-right: auto;
+      height: 140px;
+      width: 140px;
+      margin-top: 5px;
+   }
+      
+   
+   
+   
+    .najman {
+      
+      height: 130px;
+      width: 130px;
+   
+    } 
+    
+    .shapiro {
+      
+      height: 130px;
+      width: 130px;
+   
+    } 
+   
+    .shimon {
+      
+       height: 130px;
+       width: 130px;
+   
+    } 
+   
+    .arush{
+   
+      height: 130px;
+      width: 130px;
+    }
+   
+    
+      .c1{
+        width:50%;
+        order:1;
+        text-align: center;
+      }
+    
+      .c2{
+        width:50%;
+        order:2;
+        text-align: center;
+      }
+    
+      .c3{
+        width: 50%;
+        order: 3;
+        text-align: center;
+      }
+    
+        .c4{
+          width: 50%;
+          order:4;
+          text-align: center;
+        }
+    
+        .videodonacion {
+         display:block;
+         margin-left: auto;
+         margin-right: auto;
+         height: 340px;
+         width: 340px;
+         margin-top: 50px;
+         left:-20px ;}
+         
+         .fb{
+          width: 50px;
+          height: 50px;
+         }
+         
+         .contacto{
+      
+        display:block;
+         margin-left: auto;
+         margin-right: auto;
+         height: 150px;
+         width: 300px;
+         margin-top: 55px;
+         
+         
+         left:-20px ;}
+      
+        
+
+         .linkfb{
+          
+          margin-bottom: -20px;
+        
+         }
+       .fb{
+        color: black;
+        text-decoration: none;
+       }
+
+       .contacto h1 {
+        font-size:x-large;
+       }
+
+       .link{
+        font-size:x-large;
+        color: black;
+        text-decoration: none;
+        position: relative;
+        top: -30px;
+        margin-left: 20px;
+        margin-bottom: -20px;
+       }
+ 
+ }
+ 
+ /*estilos en Desktop*/
+ 
+ @media (min-width: 642px) {
+  
+  
+   .titulo {
+    color: #ECC440;
+    text-align: center;
+    padding: 10px;
+    
+   }
+   
+   .menu{
+       display:none;
+   }
+ 
+   .mobile-menu{
+ 
+       display: none;
+   }
+ 
+   .container {
+   
+       position: absolute;
+       margin: 0 auto;
+       padding: 50px;
+       display: flex;
+       justify-content: center;
+       width: 90%;
+       margin-bottom: 12px;
+       height: 200px;
+ 
+ }
+ 
+ .container .ravnames {
+   
+   margin-bottom: 0;
+   text-align: center;
+   justify-content: center;
+   position: relative;
+ 
+ }
+ 
+ .c1 , .c2, .c3, .c4 {
+   height:120px;
+   width: 320px;
+   text-align: center;
+  }
+  
+  .najman {
+     
+      height: 180px;
+      width: 180px;
+  
+   } 
+  
+   .shapiro {
+     
+      height: 180px;
+      width: 180px;
+  
+   } 
+  
+  
+   .shimon {
+     
+      height: 180px;
+      width: 180px;
+   }
+   
+   .arush{
+  
+      height: 180px;
+      width: 180px;
+   }
+  
+   .breslevlogo img {
+   
+     
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+     height: 170px;
+     width: 170px;
+     margin-top: 7px;
+  }
+ 
+  .videodonacion {
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 400px;
+   width: 400px;
+   margin-top: 55px;
+   left:-20px ;}
+
+   .fb{
+    width: 100px;
+    height: 100px;
+   }
+   .contacto{
+
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 400px;
+   width: 600px;
+   margin-top: 55px;
+   
+   left:-20px ;}
+
+   .link{
+    
+    font-size:x-large;
+    margin-left: 20px;
+    position: relative;
+    top: -30px;
+    text-decoration: none;
+    color: black;
+      
+     }
+
+    
+   }
+ 
+   .redes{
+    display:block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   justify-content: center;
+
+   }
+ 
+   .parrafo {
+
+    font-size: 1.1rem;
+    width:90%;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 1.4rem;
+    
+    }
+ 
+ 
+ 
+ 
+  
+     
+ 
+ 
+
+
+ 
+    

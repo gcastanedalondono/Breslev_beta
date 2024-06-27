@@ -1,0 +1,27 @@
+.parrafo {
+
+font-size: 1.1rem;
+width:90%;
+text-align: center;
+padding: 1rem;
+line-height: 1.4rem;
+
+}
+header {
+
+    background-color: black;
+    padding: 15px;
+}
+h1 {
+    color: #ECC440;
+    text-align: center;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+
+  
+  }

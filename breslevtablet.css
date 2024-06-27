@@ -1,0 +1,90 @@
+*{
+    box-sizing;
+}
+
+.container {
+    
+   
+   margin: 0 auto;
+   padding: 50px;
+   display: flex;
+   justify-content: center;
+   width: 90%;
+   
+
+}  
+ 
+.container .ravnames {
+    
+   margin-bottom: 10px;
+   text-align: center;
+   justify-content: center;
+   position: relative;
+
+ }
+
+.menuInicial {
+ 
+   
+background-color: #FFD700;
+padding: 7px;
+list-style: none;
+text-align: center;
+
+
+}
+
+.menuInicial li {
+
+   display:inline-block;
+   font-size: 20px;
+   margin: 10px 0;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.c1 , .c2, .c3, .c4 {
+ height:270px;
+ width: 320px;
+ text-align: center;
+}
+
+.najman {
+   
+    height: 250px;
+    width: 250px;
+
+ } 
+
+ .shapiro {
+   
+    height: 250px;
+    width: 250px;
+
+ } 
+
+
+ .shimon {
+   
+    height: 250px;
+    width: 250px;
+ }
+ 
+ .arush{
+
+    height: 250px;
+    width: 250px;
+ }
+
+ .breslevlogo img {
+ 
+   
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+   height: 190px;
+   width: 190px;
+   margin-top: 7px;
+}
+ 
+

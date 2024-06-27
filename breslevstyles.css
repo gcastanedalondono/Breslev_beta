@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+ html {
+    font-size: 62,5%;
+
+ }
+
+
+
+.logo {
+
+height: 80px;
+width: 90px;
+
+}
+
+.menuInicial {
+ 
+   background-color: #FFD700;
+   padding: 10px;
+   list-style: none;
+   text-align: center;
+   text-decoration: none;
+   
+   }
+   
+   .menuInicial li {
+   
+      display:inline-block;
+      font-size: 20px;
+      margin: 10px 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-decoration: none;
+   }
+.container {
+    border: 0,3 rem solid black;
+    
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 90px;
+    }
+
+
+
+.breslevlogo img{
+ 
+   display:block;
+  margin-left: auto;
+  margin-right: auto;
+   height: 110px;
+   width: 110px;
+   margin-top: 5px;
+}
+   
+
+
+
+ .najman {
+   
+   height: 130px;
+   width: 130px;
+
+ } 
+ 
+ .shapiro {
+   
+   height: 130px;
+   width: 130px;
+
+ } 
+
+ .shimon {
+   
+    height: 130px;
+    width: 130px;
+
+ } 
+
+ .arush{
+
+   height: 130px;
+   width: 130px;
+ }
+
+ 
+   .c1{
+     width:50%;
+     order:1;
+     text-align: center;
+   }
+ 
+   .c2{
+     width:50%;
+     order:2;
+     text-align: center;
+   }
+ 
+   .c3{
+     width: 50%;
+     order: 3;
+     text-align: center;
+   }
+ 
+     .c4{
+       width: 50%;
+       order:4;
+       text-align: center;
+     }
+ 
