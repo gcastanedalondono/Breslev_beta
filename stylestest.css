@@ -89,6 +89,18 @@ header {
  
  @media (max-width: 641px) {
   
+  .main_title{
+
+    color: black;
+    text-align: center;
+    font-size: large;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    font-size: 40px;
+
+  } 
+
   .breslevlogo img{
  
     display:block;
@@ -105,14 +117,24 @@ header {
   .titulo {
     color: #ECC440;
     text-align: center;
- 
-       font-size: large;
-       margin-left: 15px;
-       margin-right: 15px;
-       padding: 10px;
+    font-size: large;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
    }
 
+  .semititulo{
+    color: black;
+    text-align: center;
+    font-size: large;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 8px;
+    font-size: 35px;
 
+
+
+  } 
    
        
    
@@ -140,6 +162,16 @@ header {
       
     
     }
+
+    .guia_estudio img{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 190px;
+      width: 370px; 
+      margin-top: 20px;
+    }
+
  
     .mobile-menu {
        background-color: white;
@@ -181,12 +213,6 @@ header {
    
    
    
-    .najman {c:\Users\LENOVO\Desktop\Gustavo\breslev-beta\Nosotros.html
-      
-      height: 130px;
-      width: 130px;
-   
-    } 
     
     .shapiro {
       
