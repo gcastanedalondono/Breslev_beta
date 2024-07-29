@@ -10,11 +10,11 @@ header {
    }
  
  
- /*.logo {
-     width:140px;
-     height: 140px;*/
+ .logo {
+     width:500px;
+     height: 140px;
  
- 
+ }
    .inactive {
      display:none;
    }
