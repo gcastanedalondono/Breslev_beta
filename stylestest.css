@@ -335,6 +335,8 @@ header {
   width: 80%;
   margin: 0 auto;
   align-items: center;
+  height: 100%;
+  margin-bottom: 10px;
  }
 
 
@@ -492,10 +494,21 @@ header {
       width: 80%;
       margin: 0 auto;
       align-items: center;
+      height: 100%;
       
      }
 
+
+     .libros_guia img{
+
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 350px;
+      width: 140px; 
+      margin-top: 10px;
+
     }
     
- 
+  }
     
