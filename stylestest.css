@@ -331,7 +331,15 @@ header {
         margin-left: 20px;
         margin-bottom: -20px;
        }
- 
+ .contenedor{
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+ }
+
+
+}
+
  }
  
  /*estilos en Desktop*/
@@ -373,47 +381,7 @@ header {
  
  }
  
- .container .ravnames {
-   
-   margin-bottom: 0;
-   text-align: center;
-   justify-content: center;
-   position: relative;
  
- }
- 
- .c1 , .c2, .c3, .c4 {
-   height:120px;
-   width: 320px;
-   text-align: center;
-  }
-  
-  .najman {
-     
-      height: 180px;
-      width: 180px;
-  
-   } 
-  
-   .shapiro {
-     
-      height: 180px;
-      width: 180px;
-  
-   } 
-  
-  
-   .shimon {
-     
-      height: 180px;
-      width: 180px;
-   }
-   
-   .arush{
-  
-      height: 180px;
-      width: 180px;
-   }
   
    .breslevlogo img {
    
@@ -462,7 +430,7 @@ header {
      }
 
     
-   }
+   
  
    .redes{
     display:block;
@@ -509,10 +477,25 @@ header {
 
   }
   
+  .semititulo{
+
+    color: black;
+    text-align: center;
+    font-size: large;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 8px;
+    font-size: 30px;}
      
  
- 
+    .contenedor{
+      width: 80%;
+      margin: 0 auto;
+      align-items: center;
+      
+     }
 
-
+    }
+    
  
     
