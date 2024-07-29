@@ -6,10 +6,10 @@ header {
  body {
      margin: 0;
      font-family: 'Quicksand', sans-serif;
+     overflow-x: hidden;
    
-   }
- 
- 
+  
+
  .logo {
      width:500px;
      height: 140px;
@@ -338,7 +338,12 @@ header {
  
  @media (min-width: 642px) {
   
-  
+  .parrafo{
+    text-align: center;
+    display: block;
+  }
+
+
    .titulo {
     color: #ECC440;
     text-align: center;
@@ -475,12 +480,34 @@ header {
     text-align: justify;
     padding: 1rem;
     line-height: 1.4rem;
-    
+    margin: 20px;
+
     }
+
+  .short_parrafo{
+
+    font-size: 1.1rem;
+    width:100%;
+    text-align:center;
+    padding: 1rem;
+    line-height: 1.4rem;
+    margin: 20px;
+
+  }
  
+  .guia_estudio img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 190px;
+    width: 370px; 
+    margin-top: 20px;
+  }
  
- 
- 
+  .main_title{
+    text-align: center;
+
+  }
   
      
  
