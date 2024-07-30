@@ -133,11 +133,11 @@ header {
   .semititulo{
     color: black;
     text-align: center;
-    font-size: large;
+    
     margin-left: 15px;
     margin-right: 15px;
     padding: 8px;
-    font-size: 30px;
+    font-size: 20px;
 
 
 
@@ -501,11 +501,11 @@ header {
 
     color: black;
     text-align: center;
-    font-size: large;
+    
     margin-left: 15px;
     margin-right: 15px;
-    padding: 8px;
-    font-size: 30px;}
+    padding: 2px;
+    font-size: 18px;}
      
  
     .contenedor{
