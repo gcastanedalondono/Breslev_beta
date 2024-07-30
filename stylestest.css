@@ -331,14 +331,29 @@ header {
         margin-left: 20px;
         margin-bottom: -20px;
        }
- .contenedor{
-  width: 80%;
-  margin: 0 auto;
-  align-items: center;
-  height: 100%;
-  margin-bottom: 10px;
+      .contenedor{
+       width: 80%;
+       margin: 0 auto;
+       align-items: center;
+       height: 100%;
+       margin-bottom: 10px;
  }
 
+.lista_guia{
+
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    display: grid;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; 
+
+}
+ 
+.lista {
+  margin: 5px 0; /* Espaciado entre elementos de la lista */
+} 
+  
+ 
 
 }
 
