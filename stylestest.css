@@ -353,7 +353,10 @@ header {
   margin: 10px 10px; /* Espaciado entre elementos de la lista */
 } 
   
- 
+.menu_lista{
+  text-decoration: none;
+
+}
 
 }
 
@@ -524,6 +527,23 @@ header {
       margin-top: 10px;
 
     }
+
+    .lista_guia{
+
+      list-style-type: none; /* Elimina los puntos de la lista */
+      padding: 0;
+      display: grid;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; 
+  
+  }
+   
+  .lista {
+    margin: 10px 10px; /* Espaciado entre elementos de la lista */
+  } 
+    
+  .menu_lista{
+    text-decoration: none;  
     
   }
     
