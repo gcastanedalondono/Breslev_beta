@@ -371,6 +371,14 @@ header {
     display: block;
   }
 
+  .video_container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 50px;
+  }
+
 
    .titulo {
     color: #ECC440;
@@ -546,4 +554,4 @@ header {
     text-decoration: none;  
     
   }
-    
+}
