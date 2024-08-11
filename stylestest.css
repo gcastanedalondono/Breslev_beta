@@ -82,7 +82,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 205px;
-    height: 250px;
+    height: 170px;
    }
 /*display:block;
     margin-top: 30px;
@@ -374,12 +374,11 @@ header {
   .video_container {
        position: absolute;
        margin: 0 auto;
-       padding: 100px;
        display: flex;
        justify-content: center;
        width: 90%;
-       margin-bottom: 12px;
-       height: 200px;
+      
+       
   }
 
   
@@ -454,7 +453,7 @@ header {
 
 
 
-   }
+   
 
    .fb{
     width: 100px;
@@ -512,7 +511,7 @@ header {
     text-align:center;
     padding: 1rem;
     line-height: 1.4rem;
-    margin: 20px;
+    margin: 10px;
 
   }
  
