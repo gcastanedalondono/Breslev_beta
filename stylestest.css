@@ -372,13 +372,19 @@ header {
   }
 
   .video_container {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    padding: 50px;
+       position: absolute;
+       margin: 0 auto;
+       padding: 100px;
+       display: flex;
+       justify-content: center;
+       width: 90%;
+       margin-bottom: 12px;
+       height: 200px;
   }
 
+  
+
+  
 
    .titulo {
     color: #ECC440;
@@ -417,8 +423,8 @@ header {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 250px;
+    height: 180px;
+    width: 180px;
      margin-top: 7px;
   }
  
@@ -430,6 +436,25 @@ header {
    width: 250px;
    margin-top: 55px;
    left:-20px ;}
+
+   .video_inicial {
+    
+
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 150px;
+   height: 100px;
+   padding: 0px;
+   align-self: center;
+
+
+   }
+
+
+
+
+   }
 
    .fb{
     width: 100px;
