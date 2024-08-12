@@ -76,14 +76,7 @@ header {
      height: 40px;
    }
  
-   .breslevlogo{
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 205px;
-    height: 170px;
-   }
+   
 /*display:block;
     margin-top: 30px;
     justify-content: center;
@@ -108,13 +101,13 @@ header {
 
   } 
 
-  .breslevlogo img{
+  .breslevlogo img {
  
     display:block;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
-    width: 100px; 
+    height: 70px;
+    width: 70px; 
     margin-top: 20px;
     
   
