@@ -493,6 +493,19 @@ header {
 
    }
  
+   .parrafo_home{
+
+    font-size: 1.1rem;
+    width:100%;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 1.5rem;
+    margin: 1px;
+
+
+
+   }
+
    .parrafo {
 
     font-size: 1.1rem;
