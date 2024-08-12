@@ -101,6 +101,29 @@ header {
 
   } 
 
+  .parrafo_home{
+
+    font-size: 1.1rem;
+    width:100%;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 1.5rem;
+    margin: 1px;
+  }
+
+  .contenedor_home{
+    border: 0,3 rem solid black;
+       
+       align-items: center;
+       display: flex;
+       flex-wrap: wrap;
+       position: relative;
+       padding: 10px;
+       margin-left: 20px;
+
+
+
+  }
   .breslevlogo img {
  
     display:block;
@@ -228,50 +251,7 @@ header {
    
    
     
-    .shapiro {
-      
-      height: 130px;
-      width: 130px;
-   
-    } 
-   
-    .shimon {
-      
-       height: 130px;
-       width: 130px;
-   
-    } 
-   
-    .arush{
-   
-      height: 130px;
-      width: 130px;
-    }
-   
     
-      .c1{
-        width:50%;
-        order:1;
-        text-align: center;
-      }
-    
-      .c2{
-        width:50%;
-        order:2;
-        text-align: center;
-      }
-    
-      .c3{
-        width: 50%;
-        order: 3;
-        text-align: center;
-      }
-    
-        .c4{
-          width: 50%;
-          order:4;
-          text-align: center;
-        }
     
         .videodonacion {
          display:block;
