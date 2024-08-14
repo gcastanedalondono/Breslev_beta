@@ -26,6 +26,10 @@ header {
      border-bottom: 1px solid black;
    }
  
+
+  .color_lista{
+    color:blue;
+    }  
   .fuente {
   
    color: #ECC440;
