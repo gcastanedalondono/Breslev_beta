@@ -113,6 +113,7 @@ header {
     padding: 1rem;
     line-height: 1.5rem;
     margin: 1px;
+    
   }
 
   .contenedor_home{
@@ -436,7 +437,7 @@ header {
    display:block;
    margin-left: auto;
    margin-right: auto;
-   width: 150px;
+   width: 320px;
    height: 100px;
    padding: 0px;
    align-self: center;
