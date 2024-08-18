@@ -73,13 +73,30 @@ header {
     color:yellow; 
     
    }
- 
+   
+   #whatsapp_button{
+
+    border-radius: 50%; /* Esto hace que el elemento sea circular */
+     overflow: hidden; 
+  }
+
    .cart{
  
      width: 40px;
      height: 40px;
+     border-radius: 50%; /* Esto hace que el elemento sea circular */
+     overflow: hidden;
    }
  
+   .facebook{
+ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Esto hace que el elemento sea circular */
+    overflow: hidden;
+
+   }
+
    
 /*display:block;
     margin-top: 30px;
