@@ -80,6 +80,33 @@ header {
      overflow: hidden; 
   }
 
+.soundcloud-btn{
+  border-radius: 50%; /* Esto hace que el elemento sea circular */
+  overflow: hidden; 
+
+
+}
+
+  .facebook-btn{
+    border-radius: 50%; /* Esto hace que el elemento sea circular */
+    overflow: hidden; 
+
+  }
+  
+  .youtube-btn{
+    border-radius: 50%; /* Esto hace que el elemento sea circular */
+    overflow: hidden; 
+
+  }
+
+
+  .whatsapp-btn{
+
+    border-radius: 50%; /* Esto hace que el elemento sea circular */
+    overflow: hidden; 
+  }
+  
+
    .cart{
  
      width: 40px;
