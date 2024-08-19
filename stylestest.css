@@ -163,7 +163,7 @@ header {
   .contenedor_home{
     
       border: 0,3 rem solid black;
-       
+       width: 80%;
        align-items: center;
        display: flex;
        flex-wrap: wrap;
@@ -420,7 +420,16 @@ header {
        
   }
 
-  
+  .contenedor_home{
+    
+    border: 0,3 rem solid black;
+     width: 80%;
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     position: relative;
+     padding: 10px;
+     margin-left: 20px;}
 
   
 
