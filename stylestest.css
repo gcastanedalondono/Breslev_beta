@@ -638,20 +638,23 @@ header {
     height: 100vh; /* Asegúrate de que el contenedor tenga una altura definida */
     }
   .video_natan{
-    width: 80%;
-    align-items: center;
-
+  
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si se usa con flexbox */
+    margin: 20px;
 
   }
 
   .playlist-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta el tamaño de las columnas según el espacio disponible */
-    gap: 16px; /* Espacio entre los elementos de la grilla */
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); /* Ajusta el tamaño de las columnas según el espacio disponible */
+    gap: 30px; /* Espacio entre los elementos de la grilla */
     padding: 16px; /* Espacio alrededor del contenedor */
   }
   
   .playlist-item {
+    align-items: center;
+    display:block;
     background-color: #f0f0f0; /* Color de fondo para los elementos */
     border: 1px solid #ddd; /* Borde para los elementos */
     border-radius: 8px; /* Bordes redondeados */
