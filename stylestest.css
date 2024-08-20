@@ -630,4 +630,53 @@ header {
     text-decoration: none;  
     
   }
-}
+
+
+  .contenedor_video{
+    display: block;
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    height: 100vh; /* Asegúrate de que el contenedor tenga una altura definida */
+    }
+  .video_natan{
+    width: 80%;
+    align-items: center;
+
+
+  }
+
+  .playlist-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajusta el tamaño de las columnas según el espacio disponible */
+    gap: 16px; /* Espacio entre los elementos de la grilla */
+    padding: 16px; /* Espacio alrededor del contenedor */
+  }
+  
+  .playlist-item {
+    background-color: #f0f0f0; /* Color de fondo para los elementos */
+    border: 1px solid #ddd; /* Borde para los elementos */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 16px; /* Espacio interno del elemento */
+    text-align: center; /* Centra el texto horizontalmente */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para darle un poco de profundidad */
+  }
+
+  .playlist-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    gap: 16px; /* Espacio entre los elementos */
+    padding: 16px; /* Espacio alrededor del contenedor */
+  }
+  
+  .playlist-item2 {
+    background-color: #f0f0f0; /* Color de fondo para los elementos */
+    border: 1px solid #ddd; /* Borde para los elementos */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 16px; /* Espacio interno del elemento */
+    text-align: center; /* Centra el texto horizontalmente */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para darle un poco de profundidad */
+  }
+
+  }
+  
+  
+
