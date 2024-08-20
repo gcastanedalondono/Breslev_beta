@@ -655,6 +655,7 @@ header {
   .playlist-item {
     align-items: center;
     display:block;
+    font-size: 1rem;
     background-color: #f0f0f0; /* Color de fondo para los elementos */
     border: 1px solid #ddd; /* Borde para los elementos */
     border-radius: 8px; /* Bordes redondeados */
