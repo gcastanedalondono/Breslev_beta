@@ -50,9 +50,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Producto 1', imgSrc: 'https://via.placeholder.com/150' },
-        { id: 2, title: 'Producto 2', imgSrc: 'https://via.placeholder.com/150' },
-        { id: 3, title: 'Producto 3', imgSrc: 'https://via.placeholder.com/150' },
+        { id: 1, title: 'Jardin de la Fe', imgSrc: 'jardin.png' },
+        { id: 2, title: 'En las puertas de la gratitud', imgSrc: 'puertas_gratitud.png' },
+        { id: 3, title: 'En los campos del bosque', imgSrc: 'campos_del_bosque.png' },
         { id: 4, title: 'Producto 4', imgSrc: 'https://via.placeholder.com/150' },
         { id: 5, title: 'Producto 5', imgSrc: 'https://via.placeholder.com/150' },
         { id: 6, title: 'Producto 6', imgSrc: 'https://via.placeholder.com/150' },
