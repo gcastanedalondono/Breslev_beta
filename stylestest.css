@@ -378,17 +378,11 @@ header {
        margin-bottom: 10px;
  }
 
- .playlist-container {
-  grid-template-columns: 1fr; /* Una columna para mostrar los elementos en una sola fila vertical */
-  gap: 12px; /* Ajusta el espacio entre elementos si es necesario */
-  padding: 8px; /* Ajusta el padding si es necesario */
-
+ 
+ html, body {
+  height: 100%;
+  margin: 0;
 }
-
-.playlist-item{
-  display: block;
-}
-
 
 .lista_guia{
 
@@ -414,6 +408,8 @@ header {
 
 
 .contenedor_video {
+
+  
   display: flex;
   flex-direction: column; /* Alinea los hijos en columna */
   align-items: center; /* Centra horizontalmente */
