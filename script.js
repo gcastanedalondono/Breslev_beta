@@ -59,9 +59,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 7, title: 'Consejo', imgSrc: 'consejo.png' },
         { id: 8, title: 'A través del fuego', imgSrc: 'fuego.png' },
         { id: 9, title: 'Cuatro lecciones', imgSrc: 'cuatro.png' },
-        { id: 10, title: 'Producto 10', imgSrc: 'https://via.placeholder.com/150' },
-        { id: 11, title: 'Producto 11', imgSrc: 'https://via.placeholder.com/150' },
-        { id: 12, title: 'Producto 12', imgSrc: 'https://via.placeholder.com/150' },
+        { id: 10, title: 'Anatomia del alma', imgSrc: 'alma.png' },
+        { id: 11, title: 'En el jardin de la paz', imgSrc: 'jardin_paz.png' },
+        { id: 12, title: 'En el jardin de la Riqueza', imgSrc: 'jardin_riqueza.png' },
     ];
 
     const gallery = document.querySelector('.gallery');
