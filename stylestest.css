@@ -429,6 +429,19 @@ header {
   gap: 10px; /* Espacio entre los elementos de la lista */
 }
 
+.short_parrafo{
+
+  font-size: 1.2rem;
+  width:100%;
+  text-align:center;
+  padding: 1rem;
+  line-height: 1.4rem;
+  margin: 10px;
+  display: block;
+
+}
+
+
 .playlist-item {
   background-color: #f0f0f0; /* Fondo para los elementos de la lista */
   padding: 15px; /* Espacio interno en los elementos de la lista */
