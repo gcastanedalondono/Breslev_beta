@@ -557,10 +557,7 @@ header {
  
  @media (min-width: 642px) {
   
-  .parrafo{
-    text-align: center;
-    display: block;
-  }
+  
 
   .video_container {
        position: absolute;
@@ -715,10 +712,13 @@ header {
 
     font-size: 1.1rem;
     width:90%;
-    text-align: justify;
+    
     padding: 1rem;
     line-height: 1.4rem;
     margin: 20px;
+    text-align: center;
+    display: block;
+    }
 
     }
 
