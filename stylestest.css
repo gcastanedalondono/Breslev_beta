@@ -247,8 +247,8 @@ header {
   .parrafo_home{
 
     font-size: 0.9rem;
-    width:100%;
-    text-align: justify;
+    width:80%;
+    text-align: center;
     padding: 1rem;
     line-height: 1.5rem;
     margin: 1px;
@@ -927,7 +927,7 @@ header {
 }
 
 
-  }
+  
   
   
 
