@@ -697,12 +697,12 @@ header {
  
    .parrafo_home{
 
-    font-size: 1.1rem;
-    width:100%;
+    font-size: 1.05rem;
+    width:85%;
     text-align: justify;
     padding: 1rem;
     line-height: 1.5rem;
-    margin: 1px;
+    margin-bottom: 10px;
 
 
 
