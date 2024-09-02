@@ -866,6 +866,11 @@ header {
     position: relative;
 }
 
+#lista_video{
+   width: 70px;
+   height: 70px;
+
+}
 .item img {
     width: 100%;
     height: auto;
