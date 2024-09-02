@@ -379,6 +379,9 @@ header {
        position:absolute;
        top: 60px;
        padding: 8px;
+       z-index: 1000;
+       overflow: visible;
+
      }
      .mobile-menu a {
        text-decoration: none;
