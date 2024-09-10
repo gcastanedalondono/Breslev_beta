@@ -717,7 +717,7 @@ header {
    }
 
    .parrafo{
-    p {
+     
       display: block;
       margin-block-start: 1em;
       margin-block-end: 1em;
@@ -727,7 +727,7 @@ header {
   }
 
 
-   }
+   
 
    /*.parrafo {
 
@@ -742,7 +742,7 @@ header {
     }*/
 
 
-    }
+    
 
   .short_parrafo{
 
@@ -953,8 +953,10 @@ header {
     margin-top: 10px;
 }
 
-
+.parrafo_centrado{
+  text-align: center;
+}
   
   
-  
+}
 
