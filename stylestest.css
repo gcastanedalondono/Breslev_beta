@@ -1,5 +1,6 @@
 header {
   background-color:black;
+
  
  }
  
@@ -249,8 +250,8 @@ header {
     font-size: 0.9rem;
     width:80%;
     text-align: center;
-    padding: 1rem;
-    line-height: 1.5rem;
+    padding: 0,5rem;
+    line-height: 1.3rem;
     margin: 1px;
     
   }
@@ -263,8 +264,9 @@ header {
        display: flex;
        flex-wrap: wrap;
        position: relative;
-       padding: 10px;
+       padding: 5px;
        margin-left: 20px;
+       margin-top: -5px;
 
   }
 
@@ -336,13 +338,13 @@ header {
    
    }
 
-   .breslevlogo img{
+   . img{
  
       display:block;
       margin-left: auto;
       margin-right: auto;
-      height: 250px;
-      width: 250px; 
+      height: 240px;
+      width: 240px; 
       margin-top: 20px;
       
     
@@ -616,9 +618,9 @@ header {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    height: 180px;
-    width: 180px;
-     margin-top: 7px;
+    height: 170px;
+    width: 170px;
+     margin-top: 5px;
   }
  
   .videodonacion {
@@ -733,7 +735,7 @@ header {
     font-size: 1.1rem;
     width:100%;
     text-align:center;
-    padding: 1rem;
+    /*padding: 1rem;*/
     line-height: 1.4rem;
     margin: 10px;
 
