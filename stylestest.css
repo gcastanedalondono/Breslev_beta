@@ -8,7 +8,7 @@ header {
      font-family: 'Quicksand', sans-serif;
      overflow-x: hidden;
    
-  
+ }
 
      .gallery {
       display: flex;
@@ -556,7 +556,7 @@ header {
 
 
 
-}
+
  
  /*estilos en Desktop*/
  
