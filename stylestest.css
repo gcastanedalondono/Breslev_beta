@@ -498,7 +498,8 @@ body, html {
   overflow-x: hidden; /* Evita el scroll horizontal */
 }
 .lista_guia{
-
+    
+    margin-top: 35px;
     list-style-type: none; /* Elimina los puntos de la lista */
     padding: 0;
     display: grid;
