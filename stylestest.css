@@ -354,13 +354,18 @@ header {
 
     
 
-    .guia_estudio img{
+    .guia_estudio {
       display:block;
       margin-left: auto;
       margin-right: auto;
-      height: 190px;
-      width: 60%px; 
+      height: 160px;
+      width: 140%px; 
       margin-top: 20px;
+    }
+
+    .guia_estudio img{
+      display:block;
+      width:120px;
     }
 
     .libros_guia img{
