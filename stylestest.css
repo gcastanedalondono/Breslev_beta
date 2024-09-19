@@ -232,6 +232,16 @@ header {
 
   } 
 
+.small_title{
+  color: black;
+  text-align: center;
+  font-size: large;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 15px;
+  font-size: 28px;
+
+}  
 
 
   .item {
@@ -558,6 +568,16 @@ body, html {
 
 }
 
+.subtitulo{
+  font-size: 1.3rem;
+  width:100%;
+  text-align:center;
+  padding: 1rem;
+  line-height: 1.4rem;
+  margin: 10px;
+  display: block;
+
+}
 
 .playlist-item {
   background-color: #f0f0f0; /* Fondo para los elementos de la lista */
@@ -779,6 +799,15 @@ body, html {
 
   }
  
+  .subtitulo{
+
+    font-size: 1.4rem;
+    width:100%;
+    text-align:center;
+    /*padding: 1rem;*/
+    line-height: 1.4rem;
+    margin: 10px;
+  }
   .guia_estudio img{
     display:block;
     margin-left: auto;
