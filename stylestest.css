@@ -887,6 +887,17 @@ body, html {
 
   }
 
+  .small_title{
+    color: black;
+    text-align: center;
+    font-size: large;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    font-size: 28px;
+  
+  }  
+
   .playlist-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); /* Ajusta el tamaño de las columnas según el espacio disponible */
