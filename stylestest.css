@@ -509,12 +509,13 @@ body, html {
 }
 .lista_guia{
     
-    margin-top: 35px;
+    margin-top: 5px;
     list-style-type: none; /* Elimina los puntos de la lista */
-    padding: 0;
+    padding: 10px;
     display: grid;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; 
+    margin-bottom: 35px;
     
 
 }
@@ -665,6 +666,10 @@ body, html {
    width: 250px;
    margin-top: 55px;
    left:-20px ;}
+
+   .lista_guia_estudio{
+    margin-top: 15px;
+   }
 
    .video_inicial {
     
