@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Jardin de la Fe', imgSrc: 'jardin.png' },
+        { id: 1, title: 'Jardin de la Fe', imgSrc: 'jardin.png', description:"$90.000" },
         { id: 2, title: 'En las puertas de la gratitud', imgSrc: 'puertas_gratitud.png' },
         { id: 3, title: 'En los campos del bosque', imgSrc: 'campos_del_bosque.png' },
         { id: 4, title: '7 principios de Noah', imgSrc: '7_preceptos_noe.png' },
@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const gallery = document.querySelector('.gallery');
     const modal = document.getElementById('modal');
     const modalImage = document.getElementById('modal-image');
+    const modalDescription = document.getElementById('modal-description');
     const buyButton = document.getElementById('buy-button');
     const closeButton = document.querySelector('.close');
 
@@ -89,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function openModal(item) {
         modal.style.display = 'block';
         modalImage.src = item.imgSrc;
+        modalDescription.textContent = item.description;
         currentItem = item;
     }
 
